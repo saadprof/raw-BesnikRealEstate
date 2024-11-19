@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+#nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nav > ul li{
+    list-style-type: none;
+}
+#nav > ul li a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #0F2B4A;
+}
+#nav ul li > a{
+    padding: 5px;
+}
+#nav #sign_btns{
+    display: flex;
+    gap: 10px;
+}
+#nav .sign{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #2289FF;
+    cursor: pointer;
+    font-weight: bold;
+}
+#nav .sign_in{
+    background-color: #ffffff;
+}
+#nav .sign_up{
+    background-color: #2289FF;
+    color: #ffffff;
+}
