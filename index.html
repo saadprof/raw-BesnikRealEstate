@@ -8,19 +8,69 @@
 </head>
 <body>
     <header id="header">
-        <img id="header_logo" src="images/logo.png" alt="Company Logo">
-        <nav id="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact</a></li>
-                <div id="sign_btns">
-                    <li><button class="sign sign_in">Sign In</button></li>
-                    <li><button class="sign sign_up">Sign Up</button></li>
+        <div id="header_topbar">
+            <img id="header_logo" src="images/logo.png" alt="Company Logo">
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <div id="sign_btns">
+                        <li><button class="primary_button button_white">Sign In</button></li>
+                        <li><button class="primary_button button_blue">Sign Up</button></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        
+        <div id="header_banner">
+            <div id="banner_text">
+                <h1>Search for Homes in your Neighborhood</h1>
+                <p>Online Estate Agency, the modern way to sell your own home. <br> You can use griffin residential to market your property.</p>
+                <div>
+                    <div id="banner_propertySearch">
+                        <div id="banner_propertySearch_address">
+                            <label for="address">Address</label>
+                            <br>
+                            <input type="text" placeholder="Write a address.">
+                        </div>
+                        <div id="banner_propertySearch_city">
+                            <label for="city">City</label>
+                            <br>
+                            <input type="text" placeholder="Write City name">
+                        </div>
+                        <button class="primary_button button_blue" id="banner_propertySearch_button">Search</button>
+                    </div>
                 </div>
-            </ul>
-        </nav>
+            </div>
+
+            <div id="banner_image">
+                <div>
+                    <img src="images/banner_property_image.png" alt="banner property image">
+                    <div>
+                        <div id="banner_property_card">
+                            <img src="images/newport_card_image.png" alt="newport property card image">
+                            <h3 id="banner_card_price">$599,000</h3>
+                            <div id="banner_card_details">
+                                <h4>Newport</h4>
+                                <div id="banner_card_room_details">
+                                    <div>
+                                        <img src="images/icons/kingBed.png" alt="banner card king size bed.">
+                                        <p>3</p>
+                                    </div>
+                                    <div>
+                                        <img src="images/icons/emptyBath.png" alt="banner card empty bathtub image">
+                                        <p>2</p>
+                                    </div>
+                                </div>
+                                <p id="banner_card_address">15 Lee Ave, Newport, Rl 02564</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 </body>
 </html>

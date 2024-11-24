@@ -7,13 +7,31 @@ body{
     max-width: 980px;
     margin: 0 auto;
 }
+.primary_button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button_blue{
+    color: #fff;
+    background-color: #2289FF;
+    border: 1px solid #2289FF;
+}
+.button_white{
+    color: #2289FF;
+    background-color: #fff;
+    border: 1px solid #2289FF;
+}
 
-#header{
+#header_topbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     margin: 1rem 0;
+}
+#header_logo{
+    cursor: pointer;
 }
 #nav > ul{
     display: flex;
@@ -36,17 +54,40 @@ body{
     display: flex;
     gap: 10px;
 }
-#nav .sign{
+
+#header_banner{
+    margin: 6rem 0;
+    display: flex;
+    gap: 2rem;
+}
+#banner_text, #banner_image{
+    width: calc(50% - 1rem);
+}
+#banner_text > h1{
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0F2B4A;
+}
+#banner_text > p{
+    color: #576B81;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+#banner_propertySearch{
+    display: flex;
+    gap: 0.5rem;
+    border: 1px solid rgba(151, 218, 245, 0.336);
     padding: 10px 20px;
     border-radius: 10px;
-    border: 1px solid #2289FF;
-    cursor: pointer;
+}
+#banner_propertySearch label{
+    color: #0F2B4A;
     font-weight: bold;
 }
-#nav .sign_in{
-    background-color: #ffffff;
+#banner_propertySearch input{
+    outline: none;
+    border: none;
+    color: gray;
 }
-#nav .sign_up{
-    background-color: #2289FF;
-    color: #ffffff;
-}
+
