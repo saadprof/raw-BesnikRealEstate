@@ -33,6 +33,7 @@ body{
 #header_logo{
     cursor: pointer;
 }
+/* Banner nav section */
 #nav > ul{
     display: flex;
     align-items: center;
@@ -74,6 +75,7 @@ body{
     line-height: 1.5rem;
 }
 
+/* Banner property search section */
 #banner_propertySearch{
     display: flex;
     gap: 0.5rem;
@@ -91,3 +93,64 @@ body{
     color: gray;
 }
 
+#banner_property_image{
+    width: 100%;
+    border-radius: 10px 100px;
+}
+
+/* Banner property card section */
+#banner_property_card{
+    width: 40%;
+}
+#banner_property_card > img{
+    border-radius: 10px;
+    width: 100%;
+}
+#banner_card_price{
+    color: #2289FF;
+    font-size: 1.8rem;
+    margin: 0.2rem 0;
+}
+#banner_card_details > h4{
+    font-size: 1.2rem;
+    color: #0F2B4A;
+}
+#banner_card_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner_card_room_details{
+    display: flex;
+    gap: 0.5rem;
+}
+#banner_card_room_details img{
+    width: 20px;
+    height: 18px;
+}
+#banner_card_room_details > div{
+    display: flex;
+    gap: 0.3rem;
+    color: rgba(128, 128, 128, 0.829);
+}
+#banner_card_address{
+    font-size: 0.8rem;
+    opacity: 0.7;
+    color: #2289ffa1;
+    margin-top: 0.4rem;
+}
+#banner_property_card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#banner_property_container{
+    position: relative;
+}
+#banner_property_card{
+    position: absolute;
+    bottom: 50px;
+    right: -120px;
+    background-color: #fff;
+}
