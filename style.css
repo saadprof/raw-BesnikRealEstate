@@ -154,3 +154,10 @@ body{
     right: -120px;
     background-color: #fff;
 }
+
+#company_logo_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 8rem 0;
+    align-items: center;
+}
