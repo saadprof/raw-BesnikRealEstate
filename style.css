@@ -161,3 +161,44 @@ body{
     margin: 8rem 0;
     align-items: center;
 }
+
+#help_you_find_heading{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #0F2B4A;
+    margin: 4rem 0 2rem 0;
+}
+#help_you_find{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+#help_you_find .shape_behind_image{
+    width: 3rem;
+    height: 3rem;
+    background-color: #2289ff4f;
+    position: relative;
+    top: 45px;
+    left: 32%;
+    z-index: 1;
+    border-radius: 10px;
+}
+#help_you_find img{
+    z-index: 2;
+    position: relative;
+}
+.help_you_find_banner{
+    width: 28%;
+}
+.help_you_find_banner > h4{
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    color: #0F2B4A;
+}
+.help_you_find_banner > p{
+    line-height: 1.5rem;
+    color: rgba(128, 128, 128, 0.842);
+}
